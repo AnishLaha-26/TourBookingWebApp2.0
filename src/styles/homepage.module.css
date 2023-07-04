@@ -1,0 +1,58 @@
+/* src/styles/homepage.css */
+:local .headerStyle {
+    background: #f0f2f5;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  :local .contentStyle {
+    background: #fff;
+    padding: 16px;
+  }
+  
+  :local .footerStyle {
+    background: #f0f2f5;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  :local .carouselContainer {
+    margin-top: 40px;
+  }
+  
+  :local .carouselHeading {
+    color: #364d79;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  :local .carouselCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  :local .carouselButton {
+    color: #0e0a0a; /* Change the button color to white or any other suitable color */
+    background-color: #000000; /* Change the background color to a darker color */
+  }
+  
+  :local .carouselButton:hover {
+    background-color: #333333; /* Change the background color on hover */
+  }
+  
+  :local .carouselButton:focus {
+    background-color: #555555; /* Change the background color when the button is focused */
+  }
+  
+  :local .card {
+    width: 50px; /* Adjust the width as needed */
+    height: 1050px; /* Adjust the height as needed */
+    background-color: #333333; /* Change the background color on hover */
+  }
